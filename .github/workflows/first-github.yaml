@@ -5,8 +5,8 @@ on:
       - main
 
 env:
-PROJECT_NAME: githubactions-demo
-COURSE: LLMOps
+  PROJECT_NAME: githubactions-demo
+  COURSE: LLMOps
 
 jobs:
   myexamplejob:
