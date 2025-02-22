@@ -12,8 +12,8 @@ jobs:
   myexamplejob:
     runs-on: ubuntu-latest
     steps:
-      - run echo "Checkout the repo"
+      - run: echo "Checkout the repo"
       - name: Checkout Repo
         uses: actions/checkout@v4
       - run: printenv
-      - run: echp "this is the env ${{ env.PROJECT_NAME }} and ${{ env.COURSE }}"
+      - run: echo "this is the env ${{ env.PROJECT_NAME }} and ${{ env.COURSE }}"
